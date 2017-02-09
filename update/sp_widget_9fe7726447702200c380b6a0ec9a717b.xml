@@ -27,7 +27,7 @@
 	}
 	
 	  //User the Table API to put for a record of sys_id. Whatever JSON is passed
-    //in as data, tht will be the update
+    //in as data, that will be the update
     $scope.writeIncident = function(sys_id, data) {
 					console.log("in write with "+sys_id);
 					console.log(data);
@@ -61,12 +61,12 @@ button {
      background-color: #4CAF50; /* Green */
     border: 1px;
     color: white;
-    padding: 15px 32px;
+    padding: 5px 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-       border-radius: 25px;
+    font-size: 10px;
+       border-radius: 5px;
 
 }
 
@@ -121,9 +121,9 @@ button {
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-07-20 19:19:58</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_id>9fe7726447702200c380b6a0ec9a717b</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name>TechNow28Widget</sys_name>
         <sys_package display_value="TechNow 28" source="sn_technow_28">98ae92a047702200c380b6a0ec9a7167</sys_package>
         <sys_policy/>
@@ -131,7 +131,7 @@ button {
         <sys_scope display_value="TechNow 28">98ae92a047702200c380b6a0ec9a7167</sys_scope>
         <sys_update_name>sp_widget_9fe7726447702200c380b6a0ec9a717b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-08-17 19:53:28</sys_updated_on>
+        <sys_updated_on>2017-02-09 18:52:22</sys_updated_on>
         <template><![CDATA[<div>
 <!-- your widget template -->
   <pre>Editing = {{editingRecord.sys_id}}</pre>
